@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background: linear-gradient(135deg, #007979, #24B1B1);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,8 +27,8 @@ body {
 
 /* BOTÓN */
 .btn {
-  background: white;
-  color: #2a5298;
+  background: #FFE2AF;
+  color: #007979;
   border: none;
   padding: 12px 24px;
   font-size: 16px;
@@ -40,8 +40,8 @@ body {
 }
 
 .btn:hover {
-  background: #2a5298;
-  color: white;
+  background: #E37434;
+  color: #FFE2AF;
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
@@ -57,8 +57,8 @@ body {
 
 /* TARJETAS */
 .item {
-  background: white;
-  color: #2a5298;
+  background: #FFE2AF;
+  color: #007979;
   font-size: 22px;
   font-weight: bold;
   border-radius: 15px;
@@ -71,7 +71,7 @@ body {
 }
 
 .item:hover {
-  background: #061e48;
+  background: #E37434;
   transform: scale(1.05);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
@@ -142,14 +142,14 @@ outline: none;
 font-size: 14px;
 text-align: center;
 font-weight: bold;
-color: #2a5298;
-background: white;
+color: #007979;
+background: #FFE2AF;
 box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 transition: all 0.25s ease;
 }
 /* PLACEHOLDER */
 .inputs input::placeholder {
-color: #8aa3d0;
+color: #24B1B1;
 font-weight: normal;
 }
 /* HOVER */
@@ -159,7 +159,7 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 /* FOCUS (cuando escribes) */
 .inputs input:focus {
-box-shadow: 0 0 0 3px rgba(42,82,152,0.3),
+box-shadow: 0 0 0 3px rgba(0,121,121,0.3),
 0 8px 20px rgba(0,0,0,0.3);
 transform: scale(1.05);
 }
